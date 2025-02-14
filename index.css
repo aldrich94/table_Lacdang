@@ -1,0 +1,150 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -500px;
+   float:left
+}
+div#container
+{
+   width: 970px;
+   height: 1000px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #006699;
+   background-image: url('images/index_bkgrnd.png');
+   background-repeat: repeat-y;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Table1
+{
+   border-radius: 0px;
+   border: 2px groove #696969;
+   background-image: linear-gradient(to top, #FF0000 0%, #000000 100%);
+   border-collapse: separate;
+   border-spacing: 2px;
+   margin: 0;
+   animation: puff-in 5000ms linear 1ms 1 normal both, bouncing-ball 5000ms linear 1ms 1 normal both;
+}
+#Table1 td, #Table1 th
+{
+   padding: 1px 1px 1px 1px;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 p, #Table1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   height: 82px;
+   color: #FFFF00;
+   font-family: "Bookman Old Style";
+   font-size: 27px;
+   line-height: 29.5px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 208px;
+   height: 82px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
+#Table1 .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 208px;
+   height: 82px;
+   color: #FFFF00;
+   font-family: Arial;
+   font-size: 21px;
+   line-height: 24.5px;
+}
+#Table1 .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 82px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
+#Table1 .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: center;
+   vertical-align: top;
+   width: 208px;
+   height: 82px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 24px;
+   line-height: 25px;
+}
+#Table1 .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   width: 208px;
+   height: 84px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
+#Table1 .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 2px #C0C0C0 solid;
+   text-align: left;
+   vertical-align: top;
+   height: 84px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 16px;
+   line-height: 18px;
+}
